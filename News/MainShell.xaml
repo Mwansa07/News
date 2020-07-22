@@ -10,9 +10,7 @@
                       Icon="{StaticResource HeadlinesIcon}"
                       ContentTemplate="{DataTemplate views:HeadlinesView}" />
 
-        <Tab Title="News"
-             Route="news"
-             Icon="{StaticResource NewsIcon}">
+        <Tab Title="News" Route="news" Icon="{StaticResource NewsIcon}">
             <ShellContent Title="Local" Route="local">
                 <ShellContent.ContentTemplate>
                     <DataTemplate>
