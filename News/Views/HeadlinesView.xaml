@@ -15,11 +15,11 @@
                     <DataTemplate>
                         <ContentView>
                             <ContentView.GestureRecognizers>
-                                <TapGestureRecognizer Command="{Binding
-                                    BindingContext.ItemSelected,
-                                    Source={x:Reference headlinesview}}"
+                                <TapGestureRecognizer
+                                    Command="{Binding BindingContext.ItemSelected, Source={x:Reference headlinesview}}"
                                                       CommandParameter="{Binding .}" />
                             </ContentView.GestureRecognizers>
+                            <views:ArticleItem/>
                         </ContentView>
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
